@@ -2,15 +2,20 @@
 
 If you have any feedback please write us directly on Telegram @jh_damm and @jan_rue. Thank you!
 
+⚠️ The API is under **active development**. Breaking changes can occur anytime.
+
 ## Entities
-- Protocol
-- Project
-- Contract
-- Audit & Auditor
-- Bounty & Bounty Platform
-- InsurancePolicy & Insurace Platform
+The API covers the following entities:
+
+- Protocol: e.g. Aave
+- Project: e.g. Aave V2
+- Contract: e.g. Aave V2 LendingPool contract
+- Audit & Auditor: audits are provided on a project level
+- Bounty & Bounty Platform: bounties are also provided on a project level
+- InsurancePolicy & Insurace Platform: insurace policies are also provided on a project level
 
 ## Available endpoints
+We recommend to try out the different endpoints yourself to get to know their behaviour and return values. An OpenAPI documentation which explains the endpoints and return types in more detail will be available shortly.
 
 ### Contracts
 ```bash
