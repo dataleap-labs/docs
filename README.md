@@ -2,7 +2,7 @@
 
 If you have any feedback please write us directly on Telegram @jh_damm and @jan_rue. Thank you!
 
-⚠️ The API is under **active development**. Breaking changes can occur anytime.
+⚠️ The API is under **active development**. Breaking changes can occur at anytime.
 
 ## Entities
 The API covers the following entities:
