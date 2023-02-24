@@ -15,53 +15,53 @@ If you have any feedback please write us directly on Telegram @jh_damm and @jan_
 ### Contracts
 ```bash
 # /contracts/{address}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/contracts'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts'
 
 # /contracts/project/{projectId}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/contracts/project/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts/project/xxx'
 
 # /contracts/protocol/{protocolId}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/contracts/protocol/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts/protocol/xxx'
 ```
 
 ### Projects & Protocols
 ```bash
 # /projects
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/projects'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/projects'
 
 # /projects/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/projects/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/projects/xxx'
 
 # /protocols
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/protocols'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/protocols'
 
 # /protocols/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/protocols/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/protocols/xxx'
 ```
 
 ### Audits & Auditors
 
 ```bash
 # /auditors
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/auditors'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/auditors'
 
 # /auditors/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/auditors/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/auditors/xxx'
 
 # /audits/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/audits/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/audits/xxx'
 ```
 
 ### Bounties & Bounty Platforms
 ```bash
 # /bountyPlatforms
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/bountyPlatforms'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/bountyPlatforms'
 
 # /bountyPlatforms/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/bountyPlatforms/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/bountyPlatforms/xxx'
 
 # /bounties/{id}
-curl --location --request GET 'https://api.staging.dataleap.xyz/v1/bounties/xxx'
+curl --request GET 'https://api.staging.dataleap.xyz/v1/bounties/xxx'
 ```
 
 ### Insurance Policies & Insurance Platforms
