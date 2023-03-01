@@ -19,6 +19,9 @@ We recommend to try out the different endpoints yourself to get to know their be
 
 ### Contracts
 ```bash
+# /contracts-simple/{address}
+curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts-simple/0x79530caa46b1bb1cdd1b19e418af4d7347c5fcdf'
+
 # /contracts/{address}
 curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts/0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9'
 
