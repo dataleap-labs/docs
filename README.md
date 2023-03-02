@@ -18,10 +18,39 @@ The API covers the following entities:
 We recommend to try out the different endpoints yourself to get to know their behaviour and return values. An OpenAPI documentation which explains the endpoints and return types in more detail will be available shortly. If a contract is not covered yet in our dataset, you will get a `500` error.
 
 ### Contracts
+
+#### Most useful endpoint
+The `contracts-simple` endpoint is the endpoint with the most coverage. Right now the endpoint supports contracts for ~60% of all transactions on Ethereum mainnet.
+
 ```bash
 # /contracts-simple/{address}
 curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts-simple/0xf42aa99f011a1fa7cda90e5e98b277e306bca83e'
+```
 
+Response
+```json
+{
+  "address":"0xf42aa99f011a1fa7cda90e5e98b277e306bca83e",
+  "category":"contract", # can be: contract or token
+  "label":"looksrare: transfer manager erc 721",
+  "tokenInfo":
+  {
+    "contractName":"",
+    "type":"" # can be: erc20, erc721, erc1155 or unknown
+  },
+  "contractInfo":
+  {
+    "contractName":"Transfer Manager ERC 721",
+    "protocol":"looksrare"
+  }
+}
+```
+
+
+#### Other endpoints
+
+
+```bash
 # /contracts/{address}
 curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts/0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9'
 
