@@ -17,14 +17,14 @@ The API covers the following entities:
 ## Available endpoints
 We recommend to try out the different endpoints yourself to get to know their behaviour and return values. An OpenAPI documentation which explains the endpoints and return types in more detail will be available shortly. If a contract is not covered yet in our dataset, you will get a `500` error.
 
-### Contracts
 
-#### Most useful endpoint
-The `contracts-simple` endpoint is the endpoint with the most coverage. Right now the endpoint supports contracts for ~60% of all transactions on Ethereum mainnet.
+### Addresses
+
+The `addresses` endpoint currenntly supports 241634 contracts, token and dex wallets which correspond to ~60% of all transactions/events/traces on Ethereum mainnet.
 
 ```bash
-# /contracts-simple/{address}
-curl --request GET 'https://api.staging.dataleap.xyz/v1/contracts-simple/0xf42aa99f011a1fa7cda90e5e98b277e306bca83e'
+# /address/{address}
+curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0xf42aa99f011a1fa7cda90e5e98b277e306bca83e'
 ```
 
 Response
@@ -46,9 +46,7 @@ Response
 }
 ```
 
-
-#### Other endpoints
-
+### Contracts
 
 ```bash
 # /contracts/{address}
