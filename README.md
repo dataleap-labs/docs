@@ -23,7 +23,7 @@ We recommend to try out the different endpoints yourself to get to know their be
 The `addresses` endpoint currenntly supports 241634 contracts, token and dex wallets which correspond to ~60% of all transactions/events/traces on Ethereum mainnet.
 
 ```bash
-# /address/{address}
+# /addresses/{address}
 curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0xf42aa99f011a1fa7cda90e5e98b277e306bca83e'
 ```
 
