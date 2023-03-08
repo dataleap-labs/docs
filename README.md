@@ -15,7 +15,7 @@ The API covers the following entities:
 - InsurancePolicy & Insurace Platform: insurace policies are also provided on a project level
 
 ## Available endpoints
-We recommend to try out the different endpoints yourself to get to know their behaviour and return values. An OpenAPI documentation which explains the endpoints and return types in more detail will be available shortly. If a contract is not covered yet in our dataset, you will get a `500` error.
+We recommend to try out the different endpoints yourself to get to know their behaviour and return values. An OpenAPI documentation which explains the endpoints and return types in more detail will be available shortly. If a contract is not covered yet in our dataset, you will get a `404` error.
 
 
 ### Addresses
