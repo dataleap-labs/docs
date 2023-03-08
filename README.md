@@ -1,6 +1,6 @@
 # API Documentation
 
-If you have any feedback please write us directly on Telegram @jh_damm and @jan_rue or book at slot in our [calendar](https://cal.com/jan/30-min-chat) for 30 min meeting. Thank you!
+If you have any feedback please write us directly on Telegram [@jh_damm](https://t.me/jh_damm) and [@jan_rue](https://t.me/janrue) or book at slot in our [calendar](https://cal.com/jan/30-min-chat) for 30 min meeting. Thank you!
 
 ⚠️ The API is under **active development**. Breaking changes can occur at anytime.
 
