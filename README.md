@@ -20,30 +20,25 @@ We recommend to try out the different endpoints yourself to get to know their be
 
 ### Addresses
 
-The `addresses` endpoint currenntly supports 241634 contracts, token and dex wallets which correspond to ~60% of all transactions/events/traces on Ethereum mainnet.
+The `addresses` endpoint currenntly supports 241634 contracts, token and dex wallets which correspond to ~60% of all transactions/events/traces on Ethereum mainnet. The `category` field in the response indicates whether the address belongs to a token, a contract or a wallet. 
 
 ```bash
 # /addresses/{address}
-curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0xf42aa99f011a1fa7cda90e5e98b277e306bca83e'
-```
 
-Response
-```json
-{
-  "address":"0xf42aa99f011a1fa7cda90e5e98b277e306bca83e",
-  "category":"contract", # can be: contract, token or wallet
-  "label":"looksrare: Transfer Manager ERC 721",
-  "tokenInfo":
-  {
-    "contractName":"",
-    "type":"" # can be: erc20, erc721, erc1155 or unknown
-  },
-  "contractInfo":
-  {
-    "contractName":"Transfer Manager ERC 721",
-    "protocol":"looksrare"
-  }
-}
+curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0x91a8713155758d410dfac33a63e193ae3e89f909'
+
+// Response
+{"address":"0x91a8713155758d410dfac33a63e193ae3e89f909","category":"contract","label":"zora: SingleEditionMintable","contractInfo":{"name":"SingleEditionMintable","protocol":"zora"}}
+
+curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be'
+
+// Response
+{"address":"0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be","category":"wallet","label":"","walletInfo":{"name":"Binance","type":"cex"}}
+
+curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0x98ddb493ea12799018589cb1a1b8760249153f32'
+
+// Response
+{"address":"0x98ddb493ea12799018589cb1a1b8760249153f32","category":"token","label":"Baka Arts Interleave Artwork","tokenInfo":{"name":"","type":"erc1155"}}%
 ```
 
 ### Contracts
