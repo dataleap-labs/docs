@@ -32,7 +32,7 @@ Response
 {
   "address":"0xf42aa99f011a1fa7cda90e5e98b277e306bca83e",
   "category":"contract", # can be: contract or token
-  "label":"looksrare: transfer manager erc 721",
+  "label":"looksrare: Transfer Manager ERC 721",
   "tokenInfo":
   {
     "contractName":"",
