@@ -41,6 +41,13 @@ curl --request GET 'https://api.staging.dataleap.xyz/v1/addresses/0x98ddb493ea12
 {"address":"0x98ddb493ea12799018589cb1a1b8760249153f32","category":"token","label":"Baka Arts Interleave Artwork","tokenInfo":{"name":"","type":"erc1155"}}%
 ```
 
+### Tokens
+
+```bash
+# /tokens/{address}
+curl --request GET 'https://api.staging.dataleap.xyz/v1/tokens/0xF83301c5Cd1CCBB86f466A6B3c53316ED2f8465a'
+```
+
 ### Contracts
 
 ```bash
